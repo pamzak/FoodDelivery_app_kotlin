@@ -19,12 +19,11 @@ fun FoodDeliveryTheme(
 
     content: @Composable () -> Unit
 ) {
-CompositionLocalProvider(
-    LocalAppColors provides extendedColors
-
+    CompositionLocalProvider(
+    LocalAppColors provides extendedColors,
+    LocalAppTypography provides extendedTypography
 ) {
     MaterialTheme(
-        typography = Typography,
         content = content
     )
 }
@@ -34,4 +33,7 @@ object  AppTheme{
     val Colors:AppColors
     @Composable
     get()= LocalAppColors.current
+    val typography:AppTypography
+    @Composable
+    get()= LocalAppTypography.current
 }

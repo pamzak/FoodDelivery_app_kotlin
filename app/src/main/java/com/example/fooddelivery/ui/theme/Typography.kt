@@ -46,43 +46,45 @@ body = TextStyle.Default,
 
     )
 
-    val extendedTypography=AppTypography(
 
-        headline = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 32.sp,
-             fontWeight = FontWeight.Normal,
-            ),
-        titleLarge = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Normal,
-        ),
-        titleMedium = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 20.sp,
-            fontWeight = FontWeight.Normal,
-        ),
-        titleSmall = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 16.sp,
-            fontWeight = FontWeight.Normal,
-        ),
-        body = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 14.sp,
-            fontWeight = FontWeight.Normal,
-        ),
-        bodySmall = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 12.sp,
-            fontWeight = FontWeight.Normal,
-        ),
-        label = TextStyle(
-            fontFamily = InriasanFontFamily,
-            fontSize = 11.sp,
-            fontWeight = FontWeight.Light,
-        ),
+}
+
+val extendedTypography=AppTypography(
+
+    headline = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 32.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    titleLarge = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 24.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    titleMedium = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 20.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    titleSmall = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    body = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    bodySmall = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.Normal,
+    ),
+    label = TextStyle(
+        fontFamily = InriasanFontFamily,
+        fontSize = 11.sp,
+        fontWeight = FontWeight.Light,
+    ),
 
     )
-}
